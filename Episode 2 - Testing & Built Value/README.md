@@ -12,8 +12,5 @@ flutter packages pub run build_runner build
 ## Youtube - Google Developers
 
 Youtube link for this episode : 
-- [Pilot Episode](https://flutter.dev/docs/get-started/codelab)
-
-Flutter Cookbook containg resuable app examples : 
-- [Cookbook](https://flutter.dev/docs/cookbook)
+- [Episode 2](https://www.youtube.com/watch?v=TiCA0CEePyE&list=PLOU2XLYxmsIJ7dsVN4iRuA7BT8XHzGtCr&index=23)
 

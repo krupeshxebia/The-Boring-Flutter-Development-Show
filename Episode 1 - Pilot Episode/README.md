@@ -6,8 +6,5 @@ It Has "pull down to referesh" to remove items from list. Also, url_launcher plu
 ## Youtube - Google Developers
 
 Youtube link for this episode : 
-- [Pilot Episode](https://flutter.dev/docs/get-started/codelab)
-
-Flutter Cookbook containg resuable app examples : 
-- [Cookbook](https://flutter.dev/docs/cookbook)
+- [Pilot Episode](https://www.youtube.com/watch?v=yr8F2S3Amas&list=PLOU2XLYxmsIJ7dsVN4iRuA7BT8XHzGtCr&index=22)
 
