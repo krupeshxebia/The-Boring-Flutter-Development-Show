@@ -1,10 +1,13 @@
 # The Boring Flutter Development Show [Episode 3]
 
-This one has got little steep and robust episode, <br>
-We learnt how to do testing in flutter and
-there is this immutable class generator library built_value, built_collection, it creates a immmutable class for us with getters and lots of interesting stuff.
+In this episode we completed autogenerating of our abstract class and serialization methods<br>
+We did network testing for both : list of ids and fetching articles <br>
+Then we wrapped up by adding few articles using Future builder to our app UI. <br>
 
-Below is the command to run the immutable class builder
+PS (We missed Philip in this episode!)
+
+
+Below is the command to run the immutable class and serializer builder
 ```
 flutter packages pub run build_runner build
 ```
