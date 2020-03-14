@@ -26,7 +26,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  List<Article> _articles = articles;
+  // List<Article> _articles = articles;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -37,12 +37,12 @@ class _MyHomePageState extends State<MyHomePage> {
         onRefresh: () async {
           await Future.delayed(Duration(seconds: 2));
           setState(() {
-            _articles.removeAt(0);
+            // _articles.removeAt(0);
           });
         },
         child: ListView(
-          children: _articles.map(_buildItem).toList(),
-        ),
+            // children: _articles.map(_buildItem).toList(),
+            ),
       ),
     );
   }
@@ -57,16 +57,16 @@ class _MyHomePageState extends State<MyHomePage> {
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: <Widget>[
-              Text("${article.commentsCount} comments"),
+              // Text("${article.commentsCount} comments"),
               IconButton(
                 icon: Icon(Icons.launch),
                 color: Colors.blue,
                 onPressed: () async {
-                  // Todo
-                  final fakeURL = "http://${article.domain}";
-                  if (await canLaunch(fakeURL)) {
-                    launch(fakeURL);
-                  }
+                  // // Todo
+                  // final fakeURL = "http://${article.domain}";
+                  // if (await canLaunch(fakeURL)) {
+                  //   launch(fakeURL);
+                  // }
                 },
               )
             ],
